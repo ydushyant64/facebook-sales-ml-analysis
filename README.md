@@ -1,6 +1,6 @@
 # Decoding Facebook Engagement: An Exploratory Analysis
 
-Ever wondered what makes a post go viral on Facebook? This project is a deep dive into the Facebook Marketplace dataset to uncover the secrets behind user engagement. Instead of training a predictive model, this analysis focuses on **exploratory data analysis (EDA)** to understand the patterns and behaviors that drive reactions, comments, and shares.
+Ever wondered what makes a post go viral on Facebook? This project is a deep dive into a fascinating dataset to uncover the secrets behind user engagement. Instead of training a predictive model, this analysis focuses on **exploratory data analysis (EDA)** to understand the patterns and behaviors that drive reactions, comments, and shares.
 
 ---
 
@@ -10,6 +10,19 @@ The goal wasn't to predict the future, but to understand the past. I wanted to a
 -   What type of content gets the most love from users?
 -   Is there a "golden hour" or a best day of the week to post for maximum engagement?
 -   Can we find distinct groups or "clusters" of posts based on how users interact with them?
+
+---
+
+## The Foundation: About the Dataset
+
+This analysis is based on a rich dataset from the **Facebook Marketplace**, containing information on approximately **7,000 posts**. Each row in the dataset represents a unique post and includes a variety of metrics that are crucial for understanding engagement.
+
+The key features of the dataset include:
+-   **`status_type`**: The category of the post (e.g., video, photo, text-based status, link).
+-   **`status_published`**: The exact date and time the post was published.
+-   **Engagement Metrics**: A detailed breakdown of user interactions, including `num_reactions`, `num_comments`, `num_shares`, and even specific reaction types like `num_likes`, `num_loves`, etc.
+
+This dataset provides a comprehensive snapshot of user behavior, making it a perfect playground for exploring what captures an audience's attention on the platform.
 
 ---
 
